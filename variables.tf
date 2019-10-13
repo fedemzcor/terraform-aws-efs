@@ -99,3 +99,7 @@ variable "dns_name" {
   description = "Name of the CNAME record to create"
   default     = ""
 }
+
+variable "kms_key_id" {
+  
+}
